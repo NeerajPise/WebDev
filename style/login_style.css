@@ -1,0 +1,71 @@
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.bg {
+	background-image: url("concert.jpg");
+	height: 100%;
+	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;
+}
+
+form {
+	text-align: center;
+}
+
+.login_container {
+	width: 320px;
+	height: 520px;
+	background: #000;
+	opacity: 0.85;
+	color: #fff;
+	top: 50%;
+	left: 50%;
+	position: absolute;
+	transform: translate(-50%, -50%);
+	box-sizing: border-box;
+	font-family: sans-serif;
+	font-size: 16px;
+	border-radius: 18px;
+}
+.login_container h1 {
+		padding: 40px 120px;
+}
+
+.login_container input {
+	width: 75%;
+}
+
+.login_container input[type="text"], input[type="password"] {
+	border: none;
+	border-bottom: 1px solid #fff;
+	background: transparent;
+	outline: none;
+	height: 10px;
+	color: white;
+}
+
+.login_container input[type="submit"] {
+	outline: none;
+	height: 35px;
+	background: black;
+	color: #fff;
+	font-size: 15px;
+	border-radius: 20px;
+	transition: 0.4s ease;
+}
+
+.login_container input[type="submit"]:hover {
+	cursor: pointer;
+	background: darkgrey;
+	color: #000;
+}
+
+.login_container a {
+	text-decoration: none;
+	font-size: 16px;
+	line-height: 20px;
+	color: darkgrey;
+}

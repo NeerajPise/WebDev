@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Eventer</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="style/style_categ_tech.css">
+</head>
+<body style="background-color:black;">
+	<header>
+		<div class="logo">
+			<p><img height="35" src="style/logo.png" alt="Logo" align="left">
+				<a href="http://localhost/tuts/login.html" style="float: right;">Login</a>
+				<a href="http://localhost/tuts/signup.php" style="float: right;">SignUp</a>
+			</p>
+		</div>
+		<br>
+		<div class="topnav">
+		  <a class="active" href="http://localhost/tuts/index.html">Fest</a>
+		  <a href="http://localhost/tuts/categories.html">Categories</a>
+		  <a href="http://localhost/tuts/colleges.html">Colleges</a>
+		  <a href="http://localhost/tuts/about.html">About</a>
+		</div>
+
+		
+	</header>
+
+	<main>
+		
+
+		<br>
+		<br>
+
+		<h1 class="pickone">Pick a Category</h1>
+		<div class="button">
+			<button class="btn nontech" onclick="myFunction1()">Non-Technical</button>
+			<button class="btn tech" onclick="myFunction2()">Technical</button>
+		</div>
+		<br>
+		<br>
+
+<script>
+function myFunction1() {
+  location.replace("http://localhost/tuts/cat_non_tech.html")
+}
+
+function myFunction2() {
+  location.replace("http://localhost/tuts/cat_tech.html")
+}
+</script>
+
+
+		<div class="card_py">
+  			<img src="style/python.jpg" alt="Python" style="width:100%">
+  			<div class="overlay_py">
+    			<div class="text_py">
+    				<h1>CoEP</h1>
+    				<p>A one day hands-on Python workshop where basic data structures and algorithms will be taught.</p>
+    				<p><u>Date</u>: 5th October 2019</p>
+    				<p><u>Day</u>: Saturday</p>
+    				<p><u>Time</u>: 9am - 5pm</p>
+    				<p><u>Fee</u>: Rs.200</p>
+    			</div>
+ 			 </div>
+			<div class="container_py">
+				<h2><b>Python Workshop</b></h2> 
+				<p>5/10/19</p> 
+			</div>
+		</div>
+
+		<div class="card_sw">
+  			<img src="style/swift.jpg" alt="Swift" style="width:100%">
+  			<div class="overlay_sw">
+    			<div class="text_sw">
+    				<h1>PICT</h1>
+    				<p>A one day hands-on Swift workshop. An app will be built from scratch.</p>
+    				<p><u>Date</u>: 6th October 2019</p>
+    				<p><u>Day</u>: Sunday</p>
+    				<p><u>Time</u>: 9am - 5pm</p>
+    				<p><u>Fee</u>: Rs.250</p>
+    			</div>
+ 			 </div>
+  				<div class="container_sw">
+    				<h2><b>Swift Workshop</b></h2> 
+    				<p>6/10/19</p> 
+  				</div>
+		</div>
+
+		<div class="card_ja">
+  			<img src="style/Java.jpg" alt="Java" style="width:100%">
+  			<div class="overlay_ja">
+    			<div class="text_ja"><br><br>
+    				<h1>VIIT</h1>
+    				<p>A one day hands-on Java workshop where basics of Android Studio will be taught and an app will be built.</p>
+    				<p><u>Date</u>: 7th October 2019</p>
+    				<p><u>Day</u>: Monday</p>
+    				<p><u>Time</u>: 9am - 5pm</p>
+    				<p><u>Fee</u>: Rs.500</p>
+    			</div>
+ 			 </div>
+  				<div class="container_ja">
+    				<h2><b>Java Workshop</b></h2> 
+    				<p>7/10/19</p> 
+  				</div>
+		</div>
+		
+		
+
+	</main>
+
+	<br>
+
+</body>
+</html>
